@@ -1,0 +1,17 @@
+table {
+    display: inline-block;
+    border-spacing: 5px;
+}
+
+table:first-of-type{
+    margin-right: 20px;
+}
+
+td{
+    text-align: center;
+    padding: 8px;
+    color: blue;
+    background-color: #e7e1e1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}

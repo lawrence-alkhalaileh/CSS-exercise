@@ -1,0 +1,17 @@
+.lines {
+    display: block;
+    position: relative;
+}
+
+p {
+    margin-left: 10px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 212, 212);
+
+}
+
+p:last-child {
+  background-color: red;  
+}
