@@ -1,27 +1,18 @@
 body {
   background-color: rgb(245, 245, 220);
   border-right: 2px solid #000;
-  height: 100VH;
-  margin-right: 0.5%;
+  height: 100vh;
   overflow: hidden;
-}
-
-h2{
-  margin-bottom: 0%; 
-  color: rgb(72, 72, 72);
 }
 
 .item {
   display: inline-block;
-  width: 32%;
+  width: 30%;
   border: 1px #ccc;
   background-color: #e0e0e0;
-  box-sizing: border-box;
   line-height: 1.5;
   height: 110px;
   overflow: hidden;
-  margin-right: 10px;
-  margin-left: 5px;
 }
 
 .scrollContanier {
@@ -29,7 +20,7 @@ h2{
   margin-left: 5px;
   font-size: 25px;
   border-top: 2px solid black;
-  padding-top: 5px;
+  padding-top: 10px;
   border-bottom: 2px solid black;
   overflow-y: scroll;
 }
